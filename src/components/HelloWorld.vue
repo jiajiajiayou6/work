@@ -2,7 +2,7 @@
   <div id="app">
     <div id="top">
       <div id="top-top">
-        <b>{{ cas }}</b>
+        <b>微信读书</b>
       </div>
       <div id="top-content">
         <svg t="1691066671752" class="icon1" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -17,17 +17,112 @@
         <div id="top-buttom-top">
           <img class="w1"
             src="https://img1.baidu.com/it/u=3129770633,3933811923&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500" alt="">
-          <span class="w2">{{ sanqi }}</span>
-          <span class="w3">{{ tiyan }}</span>
-          <a class="w4" href="#">{{ fangui }}</a>
+          <span class="w2">三七二十一</span>
+          <span class="w3">体验卡今日到期</span>
+          <a class="w4" href="#">反馈</a>
         </div>
         <div id="top-buttom-buttom">
-
+          <div id="t1">
+            <img class="w5"
+              src="https://weread-1258476243.file.myqcloud.com/weread/cover/25/cpplatform_8numzl8erzinxvfsk3p9jv/t6_cpplatform_8numzl8erzinxvfsk3p9jv1685508354.jpg"
+              alt="">
+          </div>
         </div>
       </div>
     </div>
     <div id="content">
-      <student></student>
+      <student>
+        <div>
+          <ul class="yl1">
+            <li style="color: rgb(88, 143, 226);">推荐</li>
+            <li>分类</li>
+            <li>排行</li>
+            <li>文学</li>
+          </ul>
+          <div class="yl2">
+            <div>
+              <ul>
+                <li class="ul-li1">
+                  <div style="float: left;">
+                    <img class="all1"
+                      src="https://weread-1258476243.file.myqcloud.com/weread/cover/55/cpplatform_2thuj2jlv1odkiylmdlcjr/t6_cpplatform_2thuj2jlv1odkiylmdlcjr1689825647.jpg"
+                      alt="">
+                  </div>
+                  <div style="float: left;">
+                    <p style="font-size: 20px;margin-left: 20px;"><b>麻衣神算子</b></p>
+                    <p style="font-size: 15px;margin-left: 20px;">骑马钓鱼|推荐值78.5%</p>
+                    <p style="font-size: 15px;margin-left: 20px;">大家都在读</p>
+                  </div>
+                </li>
+                <li class="ul-li1">
+                  <div style="float: left;">
+                    <img class="all1"
+                      src="https://weread-1258476243.file.myqcloud.com/weread/cover/55/cpplatform_2thuj2jlv1odkiylmdlcjr/t6_cpplatform_2thuj2jlv1odkiylmdlcjr1689825647.jpg"
+                      alt="">
+                  </div>
+                  <div style="float: left;">
+                    <p style="font-size: 20px;margin-left: 20px;"><b>麻衣神算子</b></p>
+                    <p style="font-size: 15px;margin-left: 20px;">骑马钓鱼|推荐值78.5%</p>
+                    <p style="font-size: 15px;margin-left: 20px;">大家都在读</p>
+                  </div>
+                </li>
+                <li class="ul-li1">
+                  <div style="float: left;">
+                    <img class="all1"
+                      src="https://weread-1258476243.file.myqcloud.com/weread/cover/55/cpplatform_2thuj2jlv1odkiylmdlcjr/t6_cpplatform_2thuj2jlv1odkiylmdlcjr1689825647.jpg"
+                      alt="">
+                  </div>
+                  <div style="float: left;">
+                    <p style="font-size: 20px;margin-left: 20px;"><b>麻衣神算子</b></p>
+                    <p style="font-size: 15px;margin-left: 20px;">骑马钓鱼|推荐值78.5%</p>
+                    <p style="font-size: 15px;margin-left: 20px;">大家都在读</p>
+                  </div>
+                </li>
+                <li class="ul-li1">
+                  <div style="float: left;">
+                    <img class="all1"
+                      src="https://weread-1258476243.file.myqcloud.com/weread/cover/55/cpplatform_2thuj2jlv1odkiylmdlcjr/t6_cpplatform_2thuj2jlv1odkiylmdlcjr1689825647.jpg"
+                      alt="">
+                  </div>
+                  <div style="float: left;">
+                    <p style="font-size: 20px;margin-left: 20px;"><b>麻衣神算子</b></p>
+                    <p style="font-size: 15px;margin-left: 20px;">骑马钓鱼|推荐值78.5%</p>
+                    <p style="font-size: 15px;margin-left: 20px;">大家都在读</p>
+                  </div>
+                </li>
+                <li class="ul-li1">
+                  <div style="float: left;">
+                    <img class="all1"
+                      src="https://weread-1258476243.file.myqcloud.com/weread/cover/55/cpplatform_2thuj2jlv1odkiylmdlcjr/t6_cpplatform_2thuj2jlv1odkiylmdlcjr1689825647.jpg"
+                      alt="">
+                  </div>
+                  <div style="float: left;">
+                    <p style="font-size: 20px;margin-left: 20px;"><b>麻衣神算子</b></p>
+                    <p style="font-size: 15px;margin-left: 20px;">骑马钓鱼|推荐值78.5%</p>
+                    <p style="font-size: 15px;margin-left: 20px;">大家都在读</p>
+                  </div>
+                </li>
+                <li class="ul-li1">
+                  <div style="float: left;">
+                    <img class="all1"
+                      src="https://weread-1258476243.file.myqcloud.com/weread/cover/55/cpplatform_2thuj2jlv1odkiylmdlcjr/t6_cpplatform_2thuj2jlv1odkiylmdlcjr1689825647.jpg"
+                      alt="">
+                  </div>
+                  <div style="float: left;">
+                    <p style="font-size: 20px;margin-left: 20px;"><b>麻衣神算子</b></p>
+                    <p style="font-size: 15px;margin-left: 20px;">骑马钓鱼|推荐值78.5%</p>
+                    <p style="font-size: 15px;margin-left: 20px;">大家都在读</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- <div></div>
+            <div></div>
+            <div>内容-3</div>
+            <div>内容-4</div> -->
+          </div>
+        </div>
+      </student>
     </div>
     <div id="buttom">
       <dl>
@@ -91,7 +186,7 @@ html {
   position: relative;
   width: 12rem;
   height: 24rem;
-  background-color: rgb(142, 191, 191);
+  /* background-color: rgb(142, 191, 191); */
 }
 
 #top {
@@ -100,7 +195,7 @@ html {
   height: 10rem;
   text-align: center;
   top: 0;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 #content {
@@ -108,14 +203,14 @@ html {
   top: 10rem;
   width: 12rem;
   height: 13.3rem;
-  background-color: rgb(93, 95, 70);
+  /* background-color: rgb(93, 95, 70); */
 }
 
 #buttom {
   position: fixed;
   bottom: 0;
   width: 12rem;
-  height: 2.7rem;
+  height: 2.65rem;
   color: white;
   background-color: rgb(44, 64, 64);
 }
@@ -137,17 +232,17 @@ dd {
 #top-content,
 #top-top {
   width: 12rem;
-  line-height: 2rem;
+  line-height: 3rem;
   height: 2rem;
 }
 
 #top-buttom {
   width: 11rem;
   margin: auto;
-  margin-top: 0.5rem;
+  margin-top: 0.8rem;
   height: 4.7rem;
   line-height: 4rem;
-  background-color: aquamarine;
+  background-color: rgb(114, 116, 122);
   border-radius: 0.6rem;
 }
 
@@ -156,13 +251,13 @@ dd {
   height: 1.5rem;
   line-height: 1.5rem;
   border-radius: 0.6rem 0.6rem 0 0;
-  background-color: rgb(156, 35, 35);
+  /* background-color: rgb(156, 35, 35); */
 }
 
 #top-buttom-buttom {
   width: 11rem;
   height: 3.2rem;
-  background-color: beige;
+  /* background-color: beige; */
   border-radius: 0 0 0.6rem 0.6rem;
 }
 
@@ -196,6 +291,7 @@ student {
 .w1 {
   width: 40px;
   height: 40px;
+
   background-color: aqua;
   float: left;
   margin-left: 10px;
@@ -205,12 +301,14 @@ student {
 
 .w2 {
   float: left;
+  font-size: 15px;
   margin-left: 10px;
 }
 
 .w3 {
   float: left;
-  color: gray;
+  color: rgb(203, 202, 202);
+  font-size: 15px;
   margin-left: 10px;
 }
 
@@ -218,19 +316,65 @@ student {
   float: right;
   width: 50px;
   height: 35px;
+  font-size: 15px;
   line-height: 35px;
   margin-top: 7px;
   border-radius: 20px 0 0 20px;
   background-color: rgb(209, 209, 209);
 }
+
+.yl1 {
+  width: 12rem;
+  height: 1rem;
+  /* background-color: rgb(56, 106, 106); */
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+.yl2 {
+  width: 12rem;
+  /* bottom: 3rem; */
+  /* overflow: hidden;
+  overflow-y: scroll; */
+  /* background-color: antiquewhite; */
+}
+
+
+
+.yl1 li {
+  float: left;
+  width: 2.95rem;
+  /* border: 1px solid black; */
+  text-align: center;
+  font-size: 25px;
+  margin: auto;
+}
+
+#t1 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 5px;
+}
+
+.w5 {
+  width: 2rem;
+  height: 2.7rem;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.ul-li1 {
+  width: 11rem;
+  height: 3rem;
+  line-height: 1rem;
+  margin: auto;
+  margin: 20px;
+}
+
+.all1 {
+  width: 2rem;
+  height: 3rem;
+}
 </style>
-<script>
- (function () {
-                var styleNode = document.createElement("style");
-                var w = document.documentElement.clienwidth;
-                var w = document.documentElement.clientWidth / 12;
-                styleNode.innerHTML = "html{font-size:" + w + "px!important}";
-                document.head.appendChild(styleNode);
-            }
-            )()
-</script>
