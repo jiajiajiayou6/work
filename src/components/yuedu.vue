@@ -6,13 +6,21 @@
             <span class="w2">三七二十一</span>
             <span class="w3">体验卡今日到期</span>
             <a class="w4" href="#">反馈</a>
+
         </div>
         <div id="top-buttom-buttom">
             <div id="t1">
                 <img class="w5"
                     src="https://weread-1258476243.file.myqcloud.com/weread/cover/25/cpplatform_8numzl8erzinxvfsk3p9jv/t6_cpplatform_8numzl8erzinxvfsk3p9jv1685508354.jpg"
                     alt="">
+
             </div>
+            <span class="shujia">书架</span>
+            <svg t="1691251155208" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                p-id="2284" width="16" height="16">
+                <path d="M369.5 980.9l-81.8-73.6 354.4-393.8-375-394.7L346.9 43l445 468.5z" p-id="2285" fill="#8a8a8a">
+                </path>
+            </svg>
         </div>
     </div>
 </template>
@@ -34,8 +42,7 @@ a {
     margin: auto;
     margin-top: 140px;
     height: 150px;
-    line-height: 150px;
-    background-color: rgb(114, 116, 122);
+    background-color: #585a61;
     border-radius: 15px;
     margin-bottom: 10px;
 }
@@ -95,6 +102,7 @@ a {
     margin-top: 10px;
     width: 65px;
     height: 85px;
+    float: left;
     margin-left: 10px;
     /* background-color: aqua; */
 }
@@ -102,5 +110,25 @@ a {
 .w5 {
     width: 65px;
     height: 85px;
+}
+
+.shujia {
+    float: right;
+    width: 15px;
+    height: 40px;
+    display: block;
+    font-size: 15px;
+    position: relative;
+    top: 28px;
+    left: -25px;
+
+}
+
+#top-buttom-buttom svg {
+    float: right;
+    position: relative;
+    top: 38px;
+    left: 10px;
+
 }
 </style>

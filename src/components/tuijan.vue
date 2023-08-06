@@ -1,14 +1,15 @@
 <template>
     <div>
         <ul class="yl1">
-            <li style="color: rgb(88, 143, 226);" v-for="(item, index) in list" :key="index" @click="dianji(item.id)">{{
-                item.
-                    name }}</li>
+            <li :style="{ color: activeindex == index ? 'rgb(88, 143, 226)' : '#000' }" v-for="(item, index) in list  "
+                :key="index" @click="dianji(index, item.id)">{{
+                    item.
+                        name }}</li>
         </ul>
         <div class="yl2">
-            <div class="qwe1" v-show="index == 1">
+            <div class="qwe1" v-show="id == 1">
                 <ul>
-                    <li class="ul-li1" v-for="(item, index) in shuzu" :key="index">
+                    <li class="ul-li1" v-for="(  item, index  ) in   shuzu  " :key="index">
                         <div style="float: left;">
                             <img class="all1" :src="item.img" alt="">
                         </div>
@@ -20,9 +21,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="qwe2" v-show="index == 2">
+            <div class="qwe2" v-show="id == 2">
                 <ul>
-                    <li class="ul-li2" v-for="(item, index) in shuzu2" :key="index">
+                    <li class="ul-li2" v-for="(  item, index  ) in   shuzu2  " :key="index">
                         <div style="float: left;width: 70%;">
                             <p style="font-size: 20px;margin-left: 20px;margin-top: 5px;"><b>{{ item.name }}</b></p>
                             <p style="font-size: 15px;margin-left: 20px;color: gray;">{{ item.neirong1 }}</p>
@@ -36,9 +37,9 @@
                 </ul>
             </div>
 
-            <div class="qwe3" v-show="index == 3">
+            <div class="qwe3" v-show="id == 3">
                 <ul>
-                    <li class="ul-li1" v-for="(item, index) in shuzu" :key="index">
+                    <li class="ul-li1" v-for="(  item, index  ) in   shuzu  " :key="index">
                         <div style="float: left;">
                             <img class="all1" :src="item.img" alt="">
                         </div>
@@ -52,9 +53,9 @@
                 </ul>
             </div>
 
-            <div class="qwe4" v-show="index == 4">
+            <div class="qwe4" v-show="id == 4">
                 <ul>
-                    <li class="ul-li4" v-for="(item, index) in shuzu" :key="index">
+                    <li class="ul-li4" v-for="(  item, index  ) in   shuzu  " :key="index">
                         <div style="float: left;height: 80px;line-height: 80px;">{{ item.id }}</div>
                         <div style="float: left;margin-left: 10px;">
                             <img class="all1" :src="item.img" alt="">
@@ -78,7 +79,9 @@ export default {
     name: 'WorkTuijan',
     data() {
         return {
-            index: 1,
+            id: 1,
+            activeindex: 0,
+            color: '#000',
             list: [
                 {
                     id: 1,
@@ -207,9 +210,14 @@ export default {
 
     },
     methods: {
-        dianji(id) {
-            this.index = id
-            console.log(id);
+        dianji(index, id) {
+            this.id = id
+            this.activeindex = index
+            // if (this.index == index) {
+            //     this.color = 'rgb(88, 143, 226)'
+            // } else {
+            //     this.color = '#000'
+            // }
         }
     },
 };
