@@ -62,7 +62,7 @@ export default {
 <style scoped>
 #buttom {
     position: sticky;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     height: 90px;
     color: rgb(106, 106, 106);

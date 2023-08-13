@@ -23,6 +23,7 @@ export default {
     height: 130px;
     /* top: 20px; */
     position: fixed;
+    top: 0;
     z-index: 1;
     text-align: center;
     background-color: rgb(255, 255, 255);
