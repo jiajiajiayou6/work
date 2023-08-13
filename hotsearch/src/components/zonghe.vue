@@ -54,12 +54,12 @@ export default {
                 { 
                     id:1,
                     title:"雪球",
-                    img:"https://files.codelife.cc/topsearch/mproPpoq6O.png",
+                    img:"https://files.codelife.cc/topsearch/X12owXzvNV.png",
                 },
                  {
                     id:2,
                     title:"抖音热搜",
-                    img:"https://files.codelife.cc/topsearch/mproPpoq6O.png",
+                    img:"https://files.codelife.cc/topsearch/DpQvNABoNE.png",
                  },
                  {
                     id:3,

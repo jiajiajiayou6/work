@@ -56,15 +56,15 @@ export default {
                     title:"微信阅读",
                     img:"https://files.codelife.cc/topsearch/mproPpoq6O.png",
                 },
-                 {
+                {
                     id:2,
                     title:"淘宝",
-                    img:"https://files.codelife.cc/topsearch/mproPpoq6O.png",
+                    img:"https://files.codelife.cc/topsearch/yjvQDpjobg.png",
                  },
                  {
                     id:3,
-                    title:"360氪",
-                    img:"https://files.codelife.cc/topsearch/mproPpoq6O.png",
+                    title:"360溘",
+                    img:"https://files.codelife.cc/topsearch/Q1Vd5Ko85R.png",
                  },
             ],     
         };

@@ -2,7 +2,7 @@
     <div id="biapqian">
         <ul id="ul">
             <li :style="{ color: activeindex == index ? 'rgb(88, 143, 226)' : '#000' }" v-for="(item, index) in shuju" @click="dianji(index, item.id)" :key="item.id">
-                <span>{{ item.name }}</span> 
+                <span class="span">{{ item.name }}</span> 
             </li>
         </ul>
         <div id="content1" v-show="id == 1">
@@ -111,7 +111,4 @@ li{
     width: 15%;
     height: 100%;
 }
-/* .span{
-    border-top:none;
-} */
 </style>

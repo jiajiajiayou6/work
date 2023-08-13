@@ -51,21 +51,21 @@ export default {
             data6:data6,
             index22:0,
             dingyue:[
-                { 
+                 {
                     id:1,
                     title:"呼啸",
-                    img:"https://files.codelife.cc/topsearch/mproPpoq6O.png",
-                },
-                 {
+                    img:"https://files.codelife.cc/topsearch/5VaobgvAj1.png",
+                 }, 
+                   {
                     id:2,
                     title:"百度",
                     img:"https://files.codelife.cc/topsearch/mproPpoq6O.png",
                  },
-                 {
+                 { 
                     id:3,
                     title:"少数派",
-                    img:"https://files.codelife.cc/topsearch/mproPpoq6O.png",
-                 },
+                    img:"https://files.codelife.cc/topsearch/Y2KeDGQdNP.png",
+                },
             ],    
         };
     },

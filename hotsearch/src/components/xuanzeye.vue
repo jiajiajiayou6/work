@@ -1,7 +1,6 @@
 <template>
     <div>
         <div id="content1" v-show="id == 1">
-
         </div>
         <div id="content2" v-show="id == 2">
         </div>
@@ -121,6 +120,6 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>

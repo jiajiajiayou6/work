@@ -3,7 +3,7 @@
         <div class="zong1">
                 <div class="left">
                     <ul class="valere">
-                        <li><input class="sousuo" type="text" name="" placeholder="搜索" id=""></li>
+                        <li><input class="sousuo" type="text" name="" placeholder="搜索" id="sousuo"></li>
                         <li class="liqq" :style="{ background: index22 == index ? 'rgb(88, 143, 226)' : '' }"  v-for="(item, index) in dingyue"  :key="item" @click="dianji1(index, item.id)"> 
                             <svg class="qqw2" data-v-d7b5176e="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M11 18c0 1.1-.9 2-2 2s-2-.9-2-2s.9-2 2-2s2 .9 2 2zm-2-8c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2zm0-6c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2zm6 4c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2z" fill="currentColor"></path></svg>
                             <img class="qqw1" :src="item.img">
@@ -53,12 +53,12 @@ export default {
                 { 
                     id:1,
                     title:"微信阅读",
-                    img:"https://files.codelife.cc/topsearch/mproPpoq6O.png",
+                    img:"https://files.codelife.cc/topsearch/WnBe01o371.png",
                 },
                  {
                     id:2,
                     title:"百度",
-                    img:"https://files.codelife.cc/topsearch/mproPpoq6O.png",
+                    img:"https://files.codelife.cc/topsearch/Jb0vmloB1G.png",
                  },
                  {
                     id:3,
